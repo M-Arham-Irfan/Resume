@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch"
   },
   "author": "",
   "license": "ISC",
