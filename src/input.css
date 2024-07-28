@@ -50,8 +50,4 @@
     .bg-menu{
         @apply bg-gray-100 dark:bg-gray-700;
     }
-    .active{
-        display: block !important;
-    }
-
 }
