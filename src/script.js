@@ -1,13 +1,7 @@
 // ReadyState Event
 document.addEventListener("readystatechange", (event) => {
   if (event.target.readyState === "complete") {
-    const initialHash = window.location.hash;
-    if (initialHash) {
-      const initialLink = document.querySelector(`a[href="${initialHash}"]`);
-      if (initialLink) {
-        initialLink.classList.add("active");
-      }
-    }
+    document.querySelector("#navbari a").classList.add("active");
     initApp();
   }
 });
