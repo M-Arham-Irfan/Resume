@@ -33,6 +33,7 @@ const addHeaderBackground = () => {
   }
 };
 
+// Set Links Event Listeners
 const setLinks = () => {
   const navbarLinks = document.querySelectorAll("#navbari a");
   navbarLinks.forEach((link) =>
@@ -45,7 +46,6 @@ const setLinks = () => {
 // Work Flow Function
 const initApp = () => {
   setLinks();
-
   const themeToggle = document.getElementById("theme-toggle");
   const thememToggle = document.getElementById("theme-mtoggle");
   const html = document.documentElement;
